@@ -4,18 +4,16 @@ document.querySelector('select#color-scheme')
     .addEventListener('change', e => {
         switch(e.target.value) {
             case 'light': {
-                document.documentElement.classList.remove('dark')
-                document.documentElement.classList.add('light')
+                root.style['color-scheme'] = 'light'
                 break
             }
             case 'dark': {
-                document.documentElement.classList.remove('light')
-                document.documentElement.classList.add('dark')
+                root.style['color-scheme'] = 'dark'
                 break
             }
             default: {
-                document.documentElement.classList.remove('light')
-                document.documentElement.classList.remove('dark')
+                root.style['color-scheme'] = 'light dark'
             }
         }
     })
+    
