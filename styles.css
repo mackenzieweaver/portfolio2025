@@ -1,0 +1,11 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    text-align: end;
+}
