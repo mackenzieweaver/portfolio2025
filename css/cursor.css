@@ -1,9 +1,9 @@
 #cursor{
     /* light mode - black to white */
     /* dark mode - white to black */
-    --color1: light-dark(black, white);
-    --color2: light-dark(white, black);
-    background: radial-gradient(var(--color1), var(--color2));
+    --color1: light-dark(rgba(0,0,0,.1), rgba(255,255,255,.1));
+    --color2: light-dark(rgba(255,255,255.1), rgba(0,0,0,.1));
+    background-image: radial-gradient(circle, var(--color1), var(--color2));
     
     pointer-events: none;
     position: absolute;
