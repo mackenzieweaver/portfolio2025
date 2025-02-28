@@ -6,18 +6,20 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
-    overflow: hidden;
+    padding: 24px;
 }
-header{
-    text-align: end;
-    display: flex;
-    justify-content: space-between;
+section, header{
+    margin-bottom: 48px;
+}
+article{
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 footer{
     font-size: 14px;
+    border-top: 1px solid light-dark(black, white);
 }
 h1{
-    text-align: center;
     font-weight: 400;
     font-size: 64px;
 }
