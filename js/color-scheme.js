@@ -1,6 +1,6 @@
 const root = document.querySelector(':root')
 
-document.querySelector('select#color-scheme')
+document.querySelector('#color-scheme')
     .addEventListener('change', e => {
         switch(e.target.value) {
             case 'light': {

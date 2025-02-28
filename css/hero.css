@@ -1,0 +1,9 @@
+#hero{
+    background-image: url(/images/mackenzie-on-cliff.jpg);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-position: right top;
+    background-repeat: no-repeat;
+    align-content: center;
+}
