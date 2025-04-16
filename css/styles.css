@@ -4,9 +4,11 @@
     padding: 0;
 }
 body{
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 24px;
+    background-color: light-dark(#EEE, #222);
+    color: light-dark(#222, #EEE);
 }
 section, header{
     margin-bottom: 48px;
@@ -20,6 +22,18 @@ footer{
     border-top: 1px solid light-dark(black, white);
 }
 h1{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 64px;
+}
+h3{
+    margin-bottom: 4px;
+}
+h3 ~ p{
+    margin-bottom: 8px;
+}
+li{
+    list-style-position: inside;
+}
+article li {
+    font-size: 14px;
 }
